@@ -14,7 +14,7 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color: #f9f0b1; /* 鹅黄色背景 */
+      background-color: #f9f0b1; /* 整体背景色：鹅黄色 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -24,10 +24,7 @@
     .container {
       width: 90%; /* 设置网页的宽度为屏幕的90% */
       max-width: 600px; /* 最大宽度，避免在大屏幕上过宽 */
-      background-color: white;
       padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -54,6 +51,7 @@
       border-radius: 10px;
       border: 2px solid #ddd; /* 方框边框颜色 */
       margin-bottom: 20px;
+      width: 100%; /* 确保正文框宽度为100% */
     }
 
     .content p {
@@ -69,11 +67,11 @@
       flex-wrap: wrap;
       gap: 10px;
       margin-top: 20px;
-      width: 100%;
+      width: 100%; /* 确保图片容器宽度为100% */
     }
 
     .images img {
-      width: 30%; /* 调整每张图片宽度 */
+      width: 30%; /* 每张图片的宽度占容器的30% */
       height: auto;
       border-radius: 8px;
       object-fit: cover;
