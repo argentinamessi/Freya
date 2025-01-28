@@ -14,7 +14,7 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
+      background-color: #f9f0b1; /* 鹅黄色背景 */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -45,10 +45,21 @@
       font-size: 24px;
       font-weight: bold;
       margin-bottom: 10px;
+      color: #6f4f1f; /* 咖啡色标题 */
+    }
+
+    .text-box {
+      background-color: white; /* 白色背景 */
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #ddd; /* 方框边框颜色 */
+      margin-bottom: 20px;
     }
 
     .content p {
       font-size: 18px;
+      color: #000; /* 黑色字体 */
+      margin-bottom: 10px;
     }
 
     /* 图片容器 */
@@ -62,7 +73,7 @@
     }
 
     .images img {
-      width: 18%; /* 每张图片宽度占容器的18% */
+      width: 30%; /* 调整每张图片宽度 */
       height: auto;
       border-radius: 8px;
       object-fit: cover;
@@ -102,16 +113,30 @@
   <div class="container">
     <div class="content">
       <h1>舰艇公主，新年快乐鸭</h1>
-      <p>希望你在新的一年里，每天都能够吃最爱吃的牛油果、椰子、岩烧乳酪吐司、鸡蛋仔等等;</p>
-      <p>希望2025年，偏头痛、鼻炎、下颌脱臼、结节、过敏、失眠、体寒能够永远的远离我们的张老师;</p>
-      <p>希望你在这一年里，在继续爱他人的同时也幸福的被爱着</p>
-    </div>
-    <div class="images">
-      <img src="jidanzai.jpg" alt="Image 1">
-      <img src="niuyouguo.jpg" alt="Image 2">
-      <img src="tennis.jpg" alt="Image 3">
-      <img src="tusi.jpg" alt="Image 4">
-      <img src="winnie.jpg" alt="Image 5">
+
+      <div class="text-box">
+        <p>希望你在新的一年里，每天都能够吃最爱吃的牛油果、椰子、岩烧乳酪吐司、鸡蛋仔等等;</p>
+      </div>
+      <div class="images">
+        <img src="jidanzai.jpg" alt="Image 1">
+      </div>
+
+      <div class="text-box">
+        <p>希望2025年，偏头痛、鼻炎、下颌脱臼、结节、过敏、失眠、体寒能够永远的远离我们的张老师;</p>
+      </div>
+      <div class="images">
+        <img src="niuyouguo.jpg" alt="Image 2">
+        <img src="tennis.jpg" alt="Image 3">
+      </div>
+
+      <div class="text-box">
+        <p>希望你在这一年里，在继续爱他人的同时也幸福的被爱着</p>
+      </div>
+      <div class="images">
+        <img src="tusi.jpg" alt="Image 4">
+        <img src="winnie.jpg" alt="Image 5">
+      </div>
+
     </div>
   </div>
 
