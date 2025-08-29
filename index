@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Freya</title>
+  <style>
+    /* 重置默认的 margin 和 padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f0b1; /* 整体背景色：鹅黄色 */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 90%; /* 设置网页的宽度为屏幕的90% */
+      max-width: 600px; /* 最大宽度，避免在大屏幕上过宽 */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .content {
+      font-size: 18px;
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .content h1 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #6f4f1f; /* 咖啡色标题 */
+    }
+
+    .text-box {
+      background-color: white; /* 白色背景 */
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #ddd; /* 方框边框颜色 */
+      margin-top: 20px; /* 这个保持一个固定的间距 */
+      width: 100%; /* 确保正文框宽度为100% */
+    }
+
+    .content p {
+      font-size: 18px;
+      color: #000; /* 黑色字体 */
+      margin-bottom: 10px;
+    }
+
+    /* 图片容器 */
+    .images {
+      display: flex;
+      justify-content: center; /* 图片居中 */
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+      width: 100%; /* 确保图片容器宽度为100% */
+    }
+
+    .images img {
+      width: 30%; /* 每张图片的宽度占容器的30% */
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+      .content h1 {
+        font-size: 22px;
+      }
+      .content p {
+        font-size: 16px;
+      }
+      .images img {
+        width: 45%; /* 在平板或手机上，每行显示两张图片 */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content h1 {
+        font-size: 20px;
+      }
+      .content p {
+        font-size: 14px;
+      }
+      .images img {
+        width: 90%; /* 在手机屏幕上，每行只显示一张图片 */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <h1>舰艇公主，新年快乐鸭</h1>
+
+      <div class="text-box">
+        <p>希望你在新的一年里，每天都能够吃最爱吃的牛油果、椰子、岩烧乳酪吐司、鸡蛋仔等等</p>
+      </div>
+      <div class="images">
+        <img src="jidanzai.jpg" alt="Image 1">
+      </div>
+
+      <div class="text-box">
+        <p>希望2025年，偏头痛、鼻炎、下颌脱臼、结节、过敏、失眠、体寒能够永远的远离我们的张老师</p>
+      </div>
+      <div class="images">
+        <img src="niuyouguo.jpg" alt="Image 2">
+        <img src="tennis.jpg" alt="Image 3">
+      </div>
+
+      <div class="text-box">
+        <p>希望你在这一年里，在继续爱他人的同时也幸福的被爱着</p>
+      </div>
+      <div class="images">
+        <img src="tusi.jpg" alt="Image 4">
+        <img src="winnie.jpg" alt="Image 5">
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
